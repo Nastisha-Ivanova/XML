@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="object">
+  <bug_report type="object">
+    <title type="string">В трекбаре скорость проигрывания не соответствует параметрам Slow и Fast при активированном чекбоксе Animate</title>
+    <description type="string">При установлении максимального значения ползунка в трекбаре скорости проигрывания на параметре Slow (медленный) скорость проигрывания быстрая, а при установлении максимального значения ползунка на параметре Fast (быстрый), наоборот, скорость проигрывания медленная. Это при условии, если активирован чекбокс Animate</description>
+    <steps_to_reproduce type="array">
+      <item type="string">Запустить программу Knight</item>
+      <item type="string">Нажать на кнопку Start</item>
+      <item type="string">После выполнения вычисления в трекбаре скорости проигрывания ползунок установить на максимальном значении в параметре Slow</item>
+      <item type="string">Активировать чекбокс Animate</item>
+      <item type="string">Нажать на кнопку Play</item>
+      <item type="string">Просмотреть скорость проигрывания</item>
+      <item type="string">В трекбаре скорости проигрывания ползунок установить на максимальном значении в параметре Fast</item>
+      <item type="string">Просмотреть скорость проигрывания</item>
+    </steps_to_reproduce>
+    <expected_result type="string">Скорость проигрывания соответствует параметрам Slow и Fast, а именно при выборе параметра ползунком Slow, скорость проигрывания медленная. При выборе параметра ползунком Fast, скорость проигрывания быстрая</expected_result>
+    <severity type="string">Minor</severity>
+    <priority type="string">Medium</priority>
+    <environment type="object">
+      <os type="string">Windows 11</os>
+    </environment>
+    <attachments type="string">https://drive.google.com/file/d/1GMY15OKWlnevIGBMMyVBx-yf3cBDGyTu/view?pli=1</attachments>
+  </bug_report>
+</root>

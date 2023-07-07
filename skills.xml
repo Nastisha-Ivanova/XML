@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="object">
+  <skills type="object">
+    <tools type="array">
+      <item type="string">Jira</item>
+      <item type="string">Confluence</item>
+      <item type="string">TM4J</item>
+      <item type="string">TestRail</item>
+      <item type="string">Figma</item>
+      <item type="string">Postman</item>
+      <item type="string">Soap UI</item>
+      <item type="string">Charles</item>
+      <item type="string">Devtools</item>
+      <item type="string">BrowserStack</item>
+      <item type="string">SQL</item>
+      <item type="string">Git</item>
+      <item type="string">Bash</item>
+    </tools>
+    <web type="array">
+      <item type="string">HTTP</item>
+      <item type="string">HTML</item>
+      <item type="string">CSS</item>
+    </web>
+    <operating_systems type="array">
+      <item type="string">Windows</item>
+      <item type="string">MacOS</item>
+      <item type="string">Android</item>
+      <item type="string">iOS</item>
+    </operating_systems>
+  </skills>
+</root>

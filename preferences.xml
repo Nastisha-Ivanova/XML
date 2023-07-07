@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root type="object">
+  <favorite_movies type="array">
+    <item type="string">Harry Potter</item>
+    <item type="string">Lord of the Rings</item>
+    <item type="string">Scary movie</item>
+  </favorite_movies>
+  <favorite_series type="array">
+    <item type="string">Strange things</item>
+    <item type="string">Friends</item>
+    <item type="string">Chernobyl</item>
+    <item type="string">Sex in the city</item>
+  </favorite_series>
+  <favorite_foods type="array">
+    <item type="string">Pizza</item>
+    <item type="string">Paste</item>
+  </favorite_foods>
+  <hobbies type="array">
+    <item type="string">Travel</item>
+  </hobbies>
+</root>
